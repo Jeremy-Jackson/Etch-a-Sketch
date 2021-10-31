@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+button {
+    margin: 0 auto;
+}
+
+#wrapper {
+    display: grid;
+    max-width: 50%;
+    height: 800px;
+    max-height: 800px;
+    margin: 0 auto;
+    padding: .5em;
+    border: 2px solid black;
+}
+
+#wrapper > div {
+    background-color:white;
+    
+    border: 1px solid black;
+}
+
+/* .wrapper > div:hover {
+
+} */
